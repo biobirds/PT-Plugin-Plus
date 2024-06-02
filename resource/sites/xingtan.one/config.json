@@ -83,7 +83,7 @@
       "merge": true,
       "fields": {
         "bonus": {
-          "selector": ["td.rowhead:contains('杏仁值') + td"],
+          "selector": ["td.colhead:contains('合计') + td"],
           "filters": ["query.text().replace(/,/g,'')", "parseFloat(query)"]
         }
       }
