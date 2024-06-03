@@ -1,6 +1,7 @@
 name: Build Action Release
 
 on:
+  workflow_dispach:
   push:
     branches: [ dev ]
   pull_request:
